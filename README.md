@@ -1,6 +1,6 @@
 # FAST Group C#/.NET Coding Test
 
-Hi, thanks for taking the AST Group C#/.NET coding test.
+Hi, thanks for taking the FAST Group C#/.NET coding test.
 
 The purpose of this test is for us to get a sense of your skill level with C#/.NET
 and to see how you think and your problem solving approach.
@@ -15,7 +15,7 @@ see it fail. Your goal is to get that test to pass.
 
 * Write as many additional tests and modules as you feel you need.
 * It's up to you to define the data structures used internally and as part of the public interface.
-* Feel free to use any nuget packages you think will help and any parts of the C#/.NET standard libraries
+* Feel free to use any NuGet packages you think will help and any parts of the C#/.NET standard libraries
   you think are appropriate. Of course, the goal here is to show us clean, readable code and allow
   us to see that you have maintainability and correctness at the forefront of your thinking, so keep
   that in mind.
@@ -33,9 +33,9 @@ and display the prices of a number of shipments.
 * Shipments are priced based on delivery range and weight.
 * Range is determined by the zones of the origin and destination suburbs.
 * If the suburbs are in the same zone, the range is `same-zone`.
-* If the origin is in two different zones, the range is `different-zone`.
+* If the suburbs are in two different zones, the range is `different-zone`.
 * If either the origin or destination is not in a zone, the shipment is not serviced.
-* If the weight exceeds the maxium weight, the shipment is not serviced.
+* If the weight exceeds the maximum weight, the shipment is not serviced.
 
 The pricing model should be built from the following two data files. These files can be found in the `Data` directory.
 
@@ -46,10 +46,10 @@ The pricing model should be built from the following two data files. These files
 
 When you have completed the exercise and wish to submit your work, please do the following:
 
-1. Make sure all your work is commited to your branch, good commit messages and telling a story
+1. Make sure all your work is committed to your branch, good commit messages and telling a story
    through the commits is a good thing.
 2. Zip up the folder containing your repo and send to your recruitment contact.
 
-_**DO NOT PUSH THE REPO UP TO GITHUB OR CREATE A PULL REQUEST AGAINST THIS REPO.**
+_**DO NOT PUSH THE REPO UP TO GITHUB OR CREATE A PULL REQUEST AGAINST THIS REPO.**_
 
 Thanks!
